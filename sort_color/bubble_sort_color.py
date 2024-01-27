@@ -1,11 +1,11 @@
 import bpy
 import random
 import math 
-from array import *
+from array import  
 from math import pi
 import numpy as np
 
-############################################################
+!###########################################################
 # Bubble Sort Algorithm
 ############################################################
         
@@ -29,7 +29,7 @@ def bubble_sort(arr, count):
             if rg1 > rg2: 
             
                 #change location & insert keyframes based on bubble sort
-                arr[j].location.x = (j+1)*2
+                arr[j].location.x = (j+1) 2
                 arr[j].keyframe_insert(data_path="location", frame=i+1)
 
                 arr[j+1].location.x = j*2
@@ -165,4 +165,4 @@ Matrix, count = setup_array(24)#only even numbers are valid
 
 #bubble_sort + visualisation
 for i in range(count):
-    bubble_sort(Matrix[i], count)
+    bubble_sort(Matrix[i], count) 
